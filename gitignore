@@ -1,0 +1,42 @@
+# База данных
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Конфигурация
+.env
+.env.local
+.env.production
+config.json
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Виртуальное окружение
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Логи и временные файлы
+*.log
+logs/
+channel_times.json
+group_languages.json
+bot.log
